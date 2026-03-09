@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+.titulo{
+    font-family: "Geom", sans-serif;
+    font-size:1.5rem; 
+    font-weight: 1000;
+    font-style: normal;
+    text-align: center;
+}
+
+p{
+    background-color: #373737;
+    text-align: right;
+}
+
+.btn-box{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    padding: 20px 50px;
+    border-radius: 25px 0 25px 0;
+    border: none; 
+}
+
+#portada{
+    text-align: center;
+    margin-top: 40px;
+}
+
+#portada img{
+    border: 25px solid orange;
+    padding: 80px;
+    background-color: aliceblue;
+    width: 200px;
+}
+
+/*card styles*/
+.user-card{
+    width: 300px;
+    background-color: gray;
+    text-align: center;
+    margin: 40px auto; 
+    border-radius: 10px;
+    padding: 30px;
+    display: block;
+}
+
+.user-card-info img{
+    border-radius: 50%;
+}
+
+#card-text{
+    text-align: center;
+}
+
+.text-green{
+    background: yellowgreen;
+}
+
+.btn-link{
+ border-radius: 50%;
+    display: block;
+    background: greenyellow;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
